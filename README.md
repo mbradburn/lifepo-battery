@@ -1,5 +1,5 @@
 Author: Matthew Bradburn<br>
-_Triggers: cheap Chinese stuff, risk of short-circuit_<br>
+_Triggers: cheap Chinese stuff, risk of short circuit_<br>
 
 ![complete](images/complete.jpg)
 
