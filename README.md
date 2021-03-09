@@ -1,5 +1,3 @@
-# DIY Budget-friendly Lithium Battery
-
 Author: Matthew Bradburn<br>
 _Triggers: cheap Chinese stuff, risk of short-circuit_<br>
 
