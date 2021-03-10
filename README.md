@@ -106,9 +106,9 @@ lithium chargers like this one: [BikeMaster Battery Charger](https://www.amazon.
 
 ### Enclosure
 
-I was looking for a budget-friendly option, and a 2-gallon bucket from Freddy's fit the bill.
+I was looking for a budget-friendly option, and a 2-gallon bucket from Home Depot fit the bill.
 It's easy to imagine the battery getting rained on at a field station and the bucket is nicely
-water-tight. It's barely big enough. I paid $4.50 for the bucket and lid.
+water-tight. It's barely big enough. The bucket and lid were $6.
 
 If you get an enclosure that's not as tall, it's okay to lay the cells on their sides.  If you
 do that, it's better to lay them on edge rather than stacking them like pancakes, due to the
