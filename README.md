@@ -195,7 +195,7 @@ rated discharge rate of ~600W but more than what I'd draw with a radio. (Hit me 
 borrow it.)
 
 I was able to get 95Ah out of the battery, so I'll call it good. To really test the battery I'd need
-a bitter BMS, a bigger load, and I'd run them until the BMS cut out due to low voltage. So this is
+a better BMS, a bigger load, and I'd run them until the BMS cut out due to low voltage. So this is
 just a rough check to make sure the cells are somewhat legit.
 
 At this 150W load, the BMS didn't get hot at all, so I'm going to attach it directly to the cells.
