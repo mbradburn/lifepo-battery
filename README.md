@@ -51,6 +51,9 @@ shipping included, so you know there must be some downside. In the data table th
 is less than the nominal capacity, which may mean that they're "Grade B" cells -- maybe the
 manufacturer tested them and they weren't up to snuff so they're being unloaded for cheap.
 
+If you search around on AliExpress, there are a lot of different cells available with different
+capacities, including Grade A cells.
+
 ### Battery Management System
 
 It's a good idea to use a Battery Management System (BMS) with a lithium battery. This is a 
