@@ -58,7 +58,8 @@ capacities, including Grade A cells.
 
 It's a good idea to use a Battery Management System (BMS) with a lithium battery. This is a 
 separate device that protects the cells by breaking the circuit before they're over-charged or
-over-discharged, and it can balance the state of charge between the cells.
+over-discharged, and it can balance the state of charge between the cells at least to a certain
+extent.
 
 A good-quality BMS will also monitor the battery temperature and prevent charging when it's too
 cold, since attempting to charge a LiFePO4 battery below 0&deg;C will ruin it.
