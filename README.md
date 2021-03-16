@@ -10,7 +10,7 @@ by the high cost of lithium batteries from reputable manufacturers. Then I learn
 can be bought directly from China from manufacturers that are perhaps less reputable for _way_
 cheaper. These make building batteries inexpensive and fun! This 95Ah battery and the accessories
 cost a total of about $225, not including the charger. A 100Ah LiFePO4 battery from a reputable
-manufacturer like Battle Born costs most of $1000, so I'm happy with this one.
+manufacturer like Battle Born costs most of $1000, so I'm happy with how this project turned out.
 
 The cells I bought have the Lithium Iron Phosphate (LiFePO4) chemistry. It's a good chemistry for
 radio amateurs because:
@@ -132,16 +132,18 @@ if they might be used. Terminal screws and connector bars were included as expec
 
 I've read that sometimes grade 'B' cells have the QR codes scratched off so no one will think they're under warranty, but these have QR codes and the word "scratch" instead of a serial number. ![qr code](images/qr-code.jpg)
 The QR code is just a link to the VariCore website. You can see that the terminals have had
-fasteners attached, not sure if just for testing. The domed lid between the terminals is a pressure-relief
-pop-off deal.
+fasteners attached, not sure if just for testing. The domed lid between the terminals is a
+pressure-relief pop-off deal.
 
-Curiously, each cell has a black plastic ring around one terminal and a red spot in the other terminal.
-The one with the black ring is the _positive_ terminal and the one with the red spot is _negative_. That
-was not what I expected. A voltmeter is handy for checking things like this.
+Curiously, each cell has a black plastic ring around one terminal and a red spot in the other
+terminal. The one with the black ring is the _positive_ terminal and the one with the red spot is
+_negative_. That was not what I expected. A voltmeter is handy for checking things like this.
 
-The voltages of the cells must be close to the same before hooking them up to the BMS if they're to charge properly, although the BMS can balance them to a certain extent. 
-The instructions for my BMS say the cells should be within 0.05V. I measured 3.03V, 3.02V, 3.01V, 3.01V, so they're good to go. If they're too different you can connect them in parallel and let them sit while the
-voltages equalize.
+The voltages of the cells must be close to the same before hooking them up to the BMS if they're
+to charge properly, although the BMS can balance them to a certain extent. 
+The instructions for my BMS say the cells should be within 0.05V. I measured 3.03V, 3.02V, 3.01V,
+3.01V, so they're good to go. If they're too different you may need to charge the low cells
+independently, which will require a charger for a single cell or a bench power supply.
 
 #### Connect the Cells and BMS
 
@@ -150,13 +152,13 @@ careful when you're working on your cells with metal tools due to the risk of cr
 If you drop a metal wrench across a cell's terminals,
 there will be a short circuit and there could easily be enough current to weld
 the wrench to the terminals, with a possibility that molten metal could fly
-around at high speed and put your eye out. Wear safety glasses and maybe have a fire extinguisher handy.
-Maybe put electrical tape on your tools so only one end has metal exposed. Remove your "Mr. T"-style
-jewelry.
+around at high speed and put your eye out. Wear safety glasses and maybe have a fire extinguisher
+handy. Maybe put electrical tape on your tools so only one end has metal exposed. Remove
+your "Mr. T"-style jewelry.
 
-The Daly BMS has a blue wire that goes to the battery negative, and the large black wire will become
-the negative
-to the load after the BMS is connected. Then the BMS has a set of small wires (5 in this case) that
+The Daly BMS has a blue wire that goes to the battery negative, and the large black wire will
+become the negative to the load after the BMS is connected. Then the BMS has a set of small wires
+(5 in this case) that
 get connected to the cells. The small black wire goes to cell #1 negative, which is the main battery
 negative. The next adjacent red wire goes to cell #1 positive. The next
 wire goes to cell #2 positive, and so on. The last small wire will go to the last cell's positive
@@ -204,17 +206,19 @@ by attaching the BMS to the inside of the battery case somehow.
 
 ### Final Assembly
 
-I wrapped the cells tightly with duct tape to form a unit. These square cells expand and contract a
-little as they're charged and discharged, and compressing them helps limit that movement, so
-battery life should be extended.
+I stuck my cells to each other with squares of the 3M double-sided foam tape and then wrapped them
+all with gorilla tape. These prismatic cells expand and contract a little as they're charged and discharged,
+and the foam tape is meant to leave a little bit of space between cells for expansion. Some cell
+manufacturers recommend that their cells be compressed to improve their lifespan, but it might not
+be a big deal given how infrequently my battery will actually go through a discharge/charge cycle.
 
-Then I attached the BMS to the cells using some double-sided foam tape. I reinstalled the conductors
+Then I attached the BMS to the cells using more double-sided foam tape. I reinstalled the conductors
 between the cells and the balancing wires to the BMS, plus the large blue wire to the battery
-negative and a 10-gauge THHN wire to the battery positive. I put yellow Kapton electrical tape over the
+negative and a 12-gauge THHN wire to the battery positive. I put yellow Kapton tape over the
 terminals to prevent short circuits. Vinyl electrical tape should work okay too, but I'm hoping
-the Kapton tape will hold up better in the long run. Then I duct-taped the temperature sensor to
-one of the cells and duct-taped the BMS balancing wires so they won't get snagged on things.
-Use plenty of duct tape! I put a powerpole connector on the main positive and negative leads. I used
+the Kapton tape will hold up better in the long run. Then I gorilla-taped the temperature sensor to
+one of the cells and taped the BMS balancing wires so they won't get snagged on things.
+Use plenty of tape! I put a powerpole connector on the main positive and negative leads. I used
 the high-strength foam tape to stick the battery to the bottom of my bucket and used some left-over
 shipping foam around it &mdash; if the bucket gets knocked over, I don't want the wires to get yanked
 around.
@@ -222,22 +226,17 @@ around.
 ![assembled battery](images/battery.jpg)
 
 The user interface is in the lid. I sprang for a dual-powerpole panel-mount outlet from
-PowerWerx because I liked the (hopefully) rain-resistant cover, but it's grievously expensive
+PowerWerx because I liked the (somewhat?) rain-resistant cover, but it's grievously expensive
 for what it is &mdash; $25, including shipping. I found more affordable ones on EBay, but without
 the rain-resistant bit.
 
-I put binding posts on as well, I had them lying around but they're not expensive. My thinking is
-that there may be some 12V accessory we want to power but which doesn't have a powerpole plug; I can
-use my pocketknife to give it bare leads to attach to the binding posts, whereas I may not have
-a powerpole crimper to make a more professional connection.
-
 USB charging ports are nice for charging phones and things, and I have a USB reading lamp that
-I could use to light the desk at a field station. This one was $12 or so at Amazon, it has a
+I could use to light the desk at a field station. This USB socket was $12 or so at Amazon, and it has a
 voltmeter built in so it's easy to see whether the battery needs charging. It needs to be
 switched so it won't drain the battery, so I bought a cheap weather-resistant switch off of EBay.
 
-I did the wiring with 12ga THHN from a previous project and some crimp-on terminals. It's not
-too tricky:
+I did the wiring with 12ga THHN and some crimp-on terminals and wire nuts. It's not
+too tricky, mostly just connecting red wires to red wires and black to black:
 
 ![lid underside](images/under-lid.jpg)
 
