@@ -146,8 +146,16 @@ _negative_. That was not what I expected. A voltmeter is handy for checking thin
 The voltages of the cells must be close to the same before hooking them up to the BMS if they're
 to charge properly, although the BMS can balance them to a certain extent. 
 The instructions for my BMS say the cells should be within 0.05V. I measured 3.03V, 3.02V, 3.01V,
-3.01V, so they're good to go. If they're too different you may need to charge the low cells
-independently, which will require a charger for a single cell or a bench power supply.
+3.01V, so they're good to go. If your cells are too different for the BMS to cope with they'll have
+to be equalized, and you have options:
+
+  - Drain the higher-voltage cells to level of the lowest ones using a resistive load, maybe
+    an incandescent bulb.
+  - Put the highest- and lowest-voltage cells in parallel to let them equalize. Put a big
+    resistor in the circuit to prevent damage to the cells that may result if they equalize
+    /too/ quickly &mdash; 1W 2M-Ohm should do it.
+  - Charge the lower-voltage cells with a bench power supply or single-cell charger (not a
+    12V charger)
 
 #### Connect the Cells and BMS
 
@@ -156,8 +164,9 @@ careful when you're working on your cells with metal tools due to the risk of cr
 If you drop a metal wrench across a cell's terminals,
 there will be a short circuit and there could easily be enough current to weld
 the wrench to the terminals, with a possibility that molten metal could fly
-around at high speed and put your eye out. Wear safety glasses and maybe have a fire extinguisher
-handy. Maybe put electrical tape on your tools so only one end has metal exposed. Remove
+around at high speed and put your eye out. Wear safety glasses. You could have a bucket of
+dry sand nearby in case you need a place to put a hot battery, or something to pour over
+a hot battery.  Maybe put electrical tape on your tools so only one end has metal exposed. Remove
 your "Mr. T"-style jewelry.
 
 The Daly BMS has a blue wire that goes to the battery negative, and the large black wire will
