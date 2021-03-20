@@ -247,3 +247,5 @@ too tricky, mostly just connecting red wires to red wires and black to black:
 Here's the result &mdash; it works!
 
 ![complete](images/complete.jpg)
+
+![hits](https://s3-us-west-2.amazonaws.com/cn85qm-public.net/hits.png)
